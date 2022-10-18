@@ -15,7 +15,7 @@ module encoder(in,enable,out);
          8'b00100000:out=5;
          8'b01000000:out=6;
          8'b10000000:out=7;
-         default:out=3'bzzz;
+         default:out=3'bxxx;
         endcase
        end
     else
